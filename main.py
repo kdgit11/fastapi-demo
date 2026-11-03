@@ -15,7 +15,7 @@ def index() -> str:
 <html lang="pl"><head><meta charset="utf-8"><title>FastAPI na App Platform</title>
 <style>body{{font-family:system-ui;max-width:40rem;margin:4rem auto;padding:0 1rem}}</style></head>
 <body><h1>Działa 🚀</h1>
-<p>FastAPI zbudowane z ZIP-a przez kpack i wdrożone na App Platform.</p>
+<p>FastAPI</p>
 <ul><li>Python {platform.python_version()}</li>
 <li>Host: {platform.node()}</li>
 <li>Start: {STARTED_AT:%Y-%m-%d %H:%M:%S} UTC</li></ul>
