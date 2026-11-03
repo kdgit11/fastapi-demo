@@ -24,7 +24,7 @@ def index() -> str:
 
 @app.get('/api/health')
 def health() -> dict:
-    return {'status': 'ok', 'version': 2, 'uptime_s': int((datetime.now(UTC) - STARTED_AT).total_seconds())}
+    return {'status': 'ok', 'version': 3, 'uptime_s': int((datetime.now(UTC) - STARTED_AT).total_seconds())}
 
 
 @app.get('/api/hello/{name}')
